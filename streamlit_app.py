@@ -23,7 +23,7 @@ def load_data():
         docs = reader.load_data()
         # llm = OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are an expert o$
         # index = VectorStoreIndex.from_documents(docs)
-        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="Tu es un professeur particulier de droit, un tuteur. Tu es spécialisé en droit administratif. Tu vas aider les étudiants qui vont te poser des questions en étant le plus précis possible et pédagogue dans tes réponses en te basant sur les cours de droit administratif qui sont mis à ta disposition."))
+        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="Tu es un professeur particulier de droit, un tuteur. Tu es spécialisé en droit administratif. Tu vas aider les étudiants qui vont te poser des questions en étant le plus précis possible et pédagogue dans tes réponses en te basant sur les cours de droit administratif qui sont mis à ta disposition.Ne reformule pas les questions posée, répond directement à la question."))
         index = VectorStoreIndex.from_documents(docs, service_context=service_context)
         return index
 
