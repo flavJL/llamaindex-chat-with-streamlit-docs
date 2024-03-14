@@ -10,6 +10,11 @@ st.set_page_config(page_title="JurisAsk, ton tuteur spécialisé en droit admini
 openai.api_key = st.secrets.openai_key
 st.title("JurisAsk, ton tuteur spécialisé en droit administratif 💬🦙")
 st.info("JurisAsk connais tous nos cours de droit administratif et peut t'aider à comprendre des notions, trouver des définitions, expliquer des concepts ou t'aider à faire tes exercices :)", icon="📃")
+
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
