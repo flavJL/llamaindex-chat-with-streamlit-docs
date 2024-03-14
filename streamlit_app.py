@@ -30,7 +30,7 @@ def load_data():
 index = load_data()
 
 if "chat_engine" not in st.session_state.keys(): # Initialize the chat engine
-        st.session_state.chat_engine = index.as_chat_engine(chat_mode="openai", verbose=True)
+        st.session_state.chat_engine = index.as_chat_engine(chat_mode="context", verbose=True)
 
 if prompt := st.chat_input("Ta question"): # Prompt for user input and save to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
