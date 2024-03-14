@@ -12,7 +12,7 @@ st.title("JurisAsk, ton tuteur spécialisé en droit administratif 💬🦙")
 st.info("JurisAsk connais tous nos cours de droit administratif et peut t'aider à comprendre des notions, trouver des définitions, expliquer des concepts ou t'aider à faire tes exercices :)", icon="📃")
 
 with st.sidebar:
-        st.markdown('JurisAsk Tuteur V0.01')
+        # JurisAsk Tuteur v0.01
 
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
