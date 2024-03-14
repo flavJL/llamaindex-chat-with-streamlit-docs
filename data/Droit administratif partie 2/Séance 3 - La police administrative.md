@@ -1,4 +1,4 @@
-﻿![](Aspose.Words.28a8a7d6-24e1-45ee-b7fa-4f488350a6b6.001.png)
+﻿**Source du document / Lien de la séance** : https://plateforme.jurislogic.fr/Contenu-pedagogique/cours-optimise-60/
 
 Tous droits réservés
 

@@ -1,5 +1,4 @@
-﻿**Source / Lien de la séance** : https://plateforme.jurislogic.fr/Seance/seance-9-la-responsabilite-administrative-fait-dommageable-et-fait-generateur/
-
+﻿**Source du document / Lien de la séance** : https://plateforme.jurislogic.fr/Contenu-pedagogique/cours-optimise-66/
 
 DROIT ADMINISTRATIF (2) 
 
