@@ -1,12 +1,11 @@
-﻿![](Aspose.Words.e90669f1-5d89-44ea-9065-3f3edfe26415.001.png)
+﻿Source : https://plateforme.jurislogic.fr/Seance/seance-9-la-responsabilite-administrative-fait-dommageable-et-fait-generateur/
 
-Tous droits réservés
 
 DROIT ADMINISTRATIF (2) 
 
 Séance 9 – Le fait générateur
 
-![](Aspose.Words.e90669f1-5d89-44ea-9065-3f3edfe26415.002.png) La responsabilité pour faute à prouver par la victime 3 
+La responsabilité pour faute à prouver par la victime 3 
 
 1) **La responsabilité pour faute simple  5** 
 1) **La responsabilité pour faute lourde  6** 
