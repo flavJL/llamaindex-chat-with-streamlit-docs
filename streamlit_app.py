@@ -1,7 +1,11 @@
+# Override the standard library sqlite3 with pysqlite3
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 import openai
 import chromadb
-from sqlite_override import sqlite3
 from llama_index.llms.openai import OpenAI
 from llama_index.vector_stores.chroma import ChromaVectorStore
 try:
